@@ -1,0 +1,40 @@
+# Proyecto Personal de Ilie Pop
+
+Página personal de Ilie Pop, profesor universitario e ingeniero arquitectónico, diseñada para mostrar información sobre su perfil, hobbies, metas de aprendizaje, experiencia profesional y contacto.
+
+## Estructura del proyecto
+
+```
+proyecto-ilie/
+├── index.html          # Página principal
+├── README.md           # Este archivo
+├── assets/
+│   ├── css/
+│   │   └── styles.css  # Hoja de estilos
+│   └── img/
+│       ├── ilie.jpg    # Imagen principal
+│       └── ilie.webp   # Versión WebP de la imagen (opcional)
+```
+
+## Cómo usar
+
+1. Clonar el repositorio:
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+cd proyecto-ilie
+```
+
+2. Abrir `index.html` en un navegador moderno.
+
+Opcional: levantar con servidor local para preloads:
+
+```bash
+python -m http.server 8000
+# Abrir en http://localhost:8000
+```
+
+## Notas
+
+* Página responsive y accesible.
+* Mantener la estructura de carpetas para que rutas de CSS e imágenes funcionen correctamente.
